@@ -13,7 +13,7 @@ public class Auto {
 		int cantidad = 0;
         
         for (Asiento i : asientos){
-            if (!i.equals(null)){
+            if (i != null){
                 cantidad = cantidad + 1;
             } else {
                 break;
