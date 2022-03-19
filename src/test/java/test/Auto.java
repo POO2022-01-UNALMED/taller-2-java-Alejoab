@@ -15,8 +15,6 @@ public class Auto {
         for (Asiento i : asientos){
             if (i != null){
                 cantidad = cantidad + 1;
-            } else {
-                break;
             }
         }
         return cantidad;
